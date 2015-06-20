@@ -20,18 +20,17 @@ public class StringInverserTest {
 
     private final String expectedEmpty = "Yoyo";
 
-
-
+    private StringInverser stringInverser = new StringInverser();
     @Test
     public void inverseString() {
         // INIT
 
         // CALL
-        String assert1 = StringInverser.inverseString(toInverse1);
-        String assert2 = StringInverser.inverseString(toInverse2);
-        String assert3 = StringInverser.inverseString(toInverse3);
-        String assertIsNull = StringInverser.inverseString(null);
-        String assertEmpty = StringInverser.inverseString("");
+        String assert1 = stringInverser.inverseString(toInverse1);
+        String assert2 = stringInverser.inverseString(toInverse2);
+        String assert3 = stringInverser.inverseString(toInverse3);
+        String assertIsNull = stringInverser.inverseString(null);
+        String assertEmpty = stringInverser.inverseString("");
 
         // VERIFY
         assertNotNull(assert1);
