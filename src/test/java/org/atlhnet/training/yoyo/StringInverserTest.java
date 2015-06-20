@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class StringInverserTest {
 
     private final String toInverse1 = "Bob";
-    private final String expected1 = "Bob";
+    private final String expected1 = "boB";
 
     private final String toInverse2 = "TestLol";
     private final String expected2 = "loLtseT";
